@@ -4,6 +4,7 @@
   <artifactId>OpenCartProject</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   
+ 
    <build>
     <pluginManagement>
     
@@ -82,6 +83,13 @@
 	    <artifactId>poi-ooxml</artifactId>
 	    <version>5.2.3</version>
 	</dependency>
+	
+	  <dependency>
+        <groupId>org.projectlombok</groupId>
+        <artifactId>lombok</artifactId>
+        <version>1.18.20</version> <!-- Replace with the latest version -->
+        <scope>provided</scope>
+    </dependency>
 
 	
 	
