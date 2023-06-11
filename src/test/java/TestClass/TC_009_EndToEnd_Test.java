@@ -42,7 +42,7 @@ public class TC_009_EndToEnd_Test extends BaseClass{
 		String presentTitle="Your Store";
 		Assert.assertEquals(ActualTitle, presentTitle);
 		
-		ps=ip.ProductSearch(rb.getString("product"));
+		ps=ip.ProductSearch(rb.getString("product1"));
 		
 //		ip.Click_MyAccount();
 //		lp=ip.ClickOn_LogIn();
